@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TimothyOD/gatsbynetlify[YOUR-REPO-NAME]
+  repo: TimothyOD/gatsbynetlify
 
 media_folder: static/assets
 public_folder: assets
