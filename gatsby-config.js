@@ -8,6 +8,23 @@ module.exports = {
         // ... other plugins
         `gatsby-plugin-netlify-cms`,
         // ... other plugins
+        // ... other plugins
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/static/assets`,
+                name: 'images',
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `content`,
+                path: `${__dirname}/content`,
+            },
+        },
+        'gatsby-transformer-remark',
+        // ... other plugins
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
